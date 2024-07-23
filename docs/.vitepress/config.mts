@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base:"/",
   title: "Hyj learn",
   description: "hyj learn docs",
   head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
