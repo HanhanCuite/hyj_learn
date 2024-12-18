@@ -1,1 +1,9 @@
 node_modules
+.vitepress/cache
+.vitepress/dist
+.vitepress/node_modules
+.vitepress/public
+.vitepress/temp
+.vitepress/theme
+.vitepress/tsconfig.json
+.vitepress/vite.config.ts

@@ -2,29 +2,38 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base:"/hyj_learn/",
-  title: "Hyj learn",
-  description: "hyj learn docs",
-  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
+  base: '/hyj_learn/',
+  title: '胡英俊的学习笔记',
+  description: '胡英俊的学习笔记',
+  head: [
+    ['link', { rel: 'icon', href: '/hyj_learn/favicon.ico' }]
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
     ],
-
     sidebar: [
       {
-        text: 'Examples',
+        text: 'vue',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
+          { text: '输入框限制输入数字', link: '/vue/input-number' },
+          { text: '自动字体大小指令', link: '/vue/autofont-size' },
+          { text: 'jsPDF 使用指南', link: '/vue/jspdf' },
+          { text: 'Axios 上传进度监听与取消上传', link: '/vue/axios' },
+          { text: 'navigator.sendBeacon 与 fetch+keepalive 对比', link: '/vue/fetch-sendBeacon' },
+        ],
+        collapsed: true
       }
     ],
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+    ],
+
+    docFooter: {
+      prev: '上一页',
+      next: '下一页'
+    }
   }
 })
