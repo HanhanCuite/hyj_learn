@@ -24,6 +24,13 @@ export default defineConfig({
           { text: 'navigator.sendBeacon 与 fetch+keepalive 对比', link: '/vue/fetch-sendBeacon' },
         ],
         collapsed: true
+      },
+      {
+        text: 'js',
+        items: [
+          { text: '获取准确时间', link: '/js/准确时间' },
+        ],
+        collapsed: true
       }
     ],
 
