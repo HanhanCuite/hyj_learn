@@ -8,6 +8,30 @@ export default defineConfig({
   head: [["link", { rel: "icon", href: "/hyj_learn/favicon.ico" }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    search: {
+      provider: 'local',
+      options: {
+        locales: {
+          zh: {
+            translations: {
+              button: {
+                buttonText: '搜索文档',
+                buttonAriaLabel: '搜索文档'
+              },
+              modal: {
+                noResultsText: '无法找到相关结果',
+                resetButtonTitle: '清除查询条件',
+                footer: {
+                  selectText: '选择',
+                  navigateText: '切换',
+                  closeText: '关闭'
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     nav: [{ text: "Home", link: "/" }],
     sidebar: [
       {
@@ -35,7 +59,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: "github", link: "https://github.com/vuejs/vitepress" },
+      { icon: "github", link: "https://www.bilibili.com/video/BV1ct4y1n7t9/?spm_id_from=333.337.search-card.all.click&vd_source=de1fa82faffa30ec04b78858060adfc6" },
     ],
 
     docFooter: {

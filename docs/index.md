@@ -3,20 +3,20 @@
 layout: home
 
 hero:
-  name: "Hyj learn"
-  text: "hyj learn docs"
-  tagline: My great project tagline
+  name: "I KUN"
+  text: "I am ikun"
+  tagline: One ikun learn docs
   actions:
     - theme: brand
       text: 开始阅读
       link: /vue/input-number
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: vue
+    details: learning
+  - title: uniapp
+    details: learning
+  - title: js
+    details: learning
 ---
 
