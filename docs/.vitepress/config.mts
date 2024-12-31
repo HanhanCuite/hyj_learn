@@ -45,6 +45,9 @@ export default defineConfig({
             text: "navigator.sendBeacon 与 fetch+keepalive 对比",
             link: "/vue/fetch-sendBeacon",
           },
+          {
+            text:"为什么要用虚拟dom",link:"/vue/Virtual DOM"
+          }
         ],
         collapsed: true,
       },
